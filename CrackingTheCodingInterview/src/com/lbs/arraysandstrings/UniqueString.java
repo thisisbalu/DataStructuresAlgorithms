@@ -22,10 +22,10 @@ public class UniqueString {
 		boolean[] characters = new boolean[256];
 		if(str.length() > 256) return false;
 		for(int i = 0; i<str.length(); i++){
-			if(characters[str.charAt(i)]){
+			if(characters[(int)str.charAt(i)]){
 				return false;
 			}
-			characters[str.charAt(i)] = true;
+			characters[(int)str.charAt(i)] = true;
 		}
 		return true;
 	}
