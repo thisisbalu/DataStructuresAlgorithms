@@ -2,8 +2,13 @@ package com.lbs.arraysandstrings;
 
 public class UniqueString {
 	
-	// Time Complexity - o(n)
-	// Space Complexity - o(1)
+/* 
+* Is Unique: Implement an algorithm to determine if a string has all unique characters. 
+* What if you cannot use additional data structures?
+* 
+* Time Complexity - o(n)
+* Space Complexity - o(1)
+*/
 
 	public static void main(String[] args) {
 		System.out.println(isUnique("qwertyukdmcvn"));

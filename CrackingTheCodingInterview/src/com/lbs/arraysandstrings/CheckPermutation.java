@@ -1,6 +1,11 @@
 package com.lbs.arraysandstrings;
 
 public class CheckPermutation {
+	
+	/*
+	 * Check Permutation: Given two strings, 
+	 * write a method to decide if one is a permutation of the other.
+	 */
 
 	public static void main(String[] args) {
 		System.out.println(checkPermutation("abcab", "aabbc"));
